@@ -1,0 +1,34 @@
+{
+  "name": "handbrake",
+  "version": "0.2.0",
+  "description": "Batch encode a folder of videos using node & handbrake",
+  "main": "encode_folder",
+  "dependencies": {
+    "charm": "*",
+    "colors": "*",
+    "commander": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "encode-folder": "./encode_folder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SoManyScientists/node-handebrake.git"
+  },
+  "keywords": [
+    "handbrake",
+    "video",
+    "conversion",
+    "batch",
+    "processing"
+  ],
+  "author": "Mark Kahn",
+  "contributors": [
+    "Troy Whiteley <troy@somanyscientists.com> @dawnerd"
+  ],
+  "preferGlobal": "true"
+}
